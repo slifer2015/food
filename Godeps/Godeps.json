@@ -1,0 +1,46 @@
+{
+	"ImportPath": "test.com/mine",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.4.0-5-g99ff426",
+			"Rev": "99ff426eb706cffe92ff3d058e168b278cabf7c7"
+		},
+		{
+			"ImportPath": "github.com/rs/xhandler",
+			"Comment": "v.11-5-g1eb70cf",
+			"Rev": "1eb70cf1520d43c307a89c5dabb7a7efd132fccd"
+		},
+		{
+			"ImportPath": "github.com/rs/xmux",
+			"Rev": "d379109ea970568fad9197dd3795934ba1a85c05"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v1.0.5-40-ge54a777",
+			"Rev": "e54a77765aca7bbdd8e56c1c54f60579968b2dc9"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "a49355c7e3f8fe157a85be2f77e6e269a0f89602"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "ce36f3865eeb42541ce3f87f32f8462c5687befa"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "ce36f3865eeb42541ce3f87f32f8462c5687befa"
+		},
+		{
+			"ImportPath": "gopkg.in/gorp.v2",
+			"Comment": "v2.1",
+			"Rev": "6032c66e0f5f155fd56216ed14cbbdd991034605"
+		}
+	]
+}
